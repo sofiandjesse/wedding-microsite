@@ -1,0 +1,24 @@
+.statImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: move;
+    width: auto;
+    height: auto;
+    float: inherit;
+}
+
+.flower {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mymove 10s infinite;
+    animation-timing-function: linear;
+    cursor: move;
+    width: 100px;
+}
+
+@keyframes mymove {
+    0% {
+        transform: rotate(360deg);
+    }
