@@ -233,10 +233,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Basteleur;
-    url('fonts/Basteleur-Bold.woff2') format('woff2'),
-    url('fonts/Basteleur-Bold.woff') format('woff'),
-    url('fonts/Basteleur-Bold.ttf') format('truetype');
+    font-family: 'Fraunces', serif;
     margin-top: 0;
     margin-bottom: 4rem;
     font-weight: 700;
