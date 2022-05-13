@@ -8,14 +8,30 @@
     float: inherit;
 }
 
-.flower {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    animation: mymove 10s infinite;
-    animation-timing-function: linear;
-    cursor: move;
-    width: 100px;
+p .question {
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+p .weetype {
+    font-size: 1.5rem;
+
+}
+
+@media (min-width: 550px) {
+    p .weetype {
+        font-size: 1.2rem;
+
+    }
+
+    p .question {
+        font-size: 2rem;
+        font-weight: 800;
+        font-style: italic;
+
+    }
 }
 
 @keyframes mymove {
