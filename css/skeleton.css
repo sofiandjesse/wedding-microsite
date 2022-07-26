@@ -220,7 +220,7 @@ body {
     font-weight: 400;
     font-family: 'Source Serif Pro', serif;
     color: #212121;
-    background-color: #F9F6EF;
+    background-color: #efeef7;
     text-align: left;
 }
 
@@ -316,7 +316,7 @@ a {
 }
 
 a:hover {
-    color: #C36C65;
+    color: #f36f50;
 }
 
 
